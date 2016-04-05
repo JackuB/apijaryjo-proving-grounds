@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  version: 1.0.0
+  version: 2015.0.0
   title: Swagga like us
   description: A sample API that uses a petstore as an example to demonstrate features in the swagger-2.0 specification
   termsOfService: http://swagger.io/terms/
