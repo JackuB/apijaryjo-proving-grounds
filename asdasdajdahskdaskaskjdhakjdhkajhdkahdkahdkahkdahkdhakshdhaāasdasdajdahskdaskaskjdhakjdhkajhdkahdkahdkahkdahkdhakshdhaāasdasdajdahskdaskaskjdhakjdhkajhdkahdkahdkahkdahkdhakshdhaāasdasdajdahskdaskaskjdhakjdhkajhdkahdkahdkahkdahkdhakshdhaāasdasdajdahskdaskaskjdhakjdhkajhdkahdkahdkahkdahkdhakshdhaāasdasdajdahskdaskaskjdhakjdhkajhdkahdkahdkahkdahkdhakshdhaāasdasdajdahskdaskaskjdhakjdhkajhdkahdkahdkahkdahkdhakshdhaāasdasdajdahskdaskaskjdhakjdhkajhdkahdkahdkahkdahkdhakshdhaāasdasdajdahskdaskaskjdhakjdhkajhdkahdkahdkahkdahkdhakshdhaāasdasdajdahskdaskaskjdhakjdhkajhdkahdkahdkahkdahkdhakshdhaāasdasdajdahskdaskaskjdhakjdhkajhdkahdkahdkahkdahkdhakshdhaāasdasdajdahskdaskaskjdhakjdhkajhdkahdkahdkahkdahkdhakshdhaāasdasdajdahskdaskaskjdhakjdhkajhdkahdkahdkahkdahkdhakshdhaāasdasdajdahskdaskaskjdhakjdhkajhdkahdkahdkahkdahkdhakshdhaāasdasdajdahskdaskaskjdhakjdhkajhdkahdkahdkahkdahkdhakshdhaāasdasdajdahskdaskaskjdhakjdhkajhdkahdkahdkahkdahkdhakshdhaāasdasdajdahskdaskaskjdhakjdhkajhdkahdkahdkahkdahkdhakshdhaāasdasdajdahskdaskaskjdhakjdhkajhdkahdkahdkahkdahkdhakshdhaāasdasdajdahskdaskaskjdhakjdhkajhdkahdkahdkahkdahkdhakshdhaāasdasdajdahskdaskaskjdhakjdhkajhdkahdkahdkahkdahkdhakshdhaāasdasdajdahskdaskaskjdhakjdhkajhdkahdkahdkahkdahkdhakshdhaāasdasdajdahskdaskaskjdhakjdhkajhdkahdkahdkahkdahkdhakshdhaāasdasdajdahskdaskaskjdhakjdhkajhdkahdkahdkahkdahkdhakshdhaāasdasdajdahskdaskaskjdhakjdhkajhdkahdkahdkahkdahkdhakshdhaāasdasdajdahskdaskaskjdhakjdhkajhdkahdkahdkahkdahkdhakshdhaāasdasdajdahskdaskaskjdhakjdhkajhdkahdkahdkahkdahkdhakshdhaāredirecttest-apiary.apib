@@ -1,0 +1,23 @@
+FORMAT: 1A
+
+# Redirect test
+
+## Real [/real.json]
+
+### Get real [GET]
+
++ Response 200 (application/json)
+
+        {
+            "redirected": true
+        }
+
+## Redirect [/redirect.json]
+
+### Get redirected [GET]
+
++ Response 303
+
+    + Headers
+
+            Location: /real.json
